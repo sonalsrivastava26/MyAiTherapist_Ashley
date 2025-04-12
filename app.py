@@ -6,7 +6,7 @@ from langchain.memory import ConversationBufferMemory
 
 OPENAI_API_KEY=os.getenv('OPENAI_API_KEY')
 
-template = """You are a helpful assistant to answer all user queries.
+template = """You are a kind friendly therapist who listens to queries and provides meaningful solutions.
 {chat_history}
 User: {user_message}
 Chatbot:"""
